@@ -45,18 +45,20 @@ function App() {
   const totalCarrinho = carrinho.reduce((acc, item) => acc + item.preco * item.quantidade, 0);
   const totalItens = carrinho.reduce((acc, item) => acc + item.quantidade, 0);
 
+  // CORREÇÃO AQUI (Linha 33): Envolvido o retorno do map com parênteses ()
   const adicionarAoCarrinho = (item) => {
     setCarrinho(carrinhoAtual => {
       const itemExiste = carrinhoAtual.find(i => i.id === item.id);
       return itemExiste 
-        ? carrinhoAtual.map(i => i.id === item.id ? { ...i, quantidade: i.quantidade + 1 } : i)
+        ? carrinhoAtual.map(i => i.id === item.id ? ({ ...i, quantidade: i.quantidade + 1 }) : i)
         : [...carrinhoAtual, { ...item, quantidade: 1 }];
     });
   };
 
+  // CORREÇÃO AQUI (Linha 52): Envolvido o retorno do map com parênteses ()
   const alterarQuantidade = (id, delta) => {
     setCarrinho(carrinhoAtual => 
-      carrinhoAtual.map(i => i.id === id ? { ...i, quantidade: Math.max(0, i.quantidade + delta) } : i)
+      carrinhoAtual.map(i => i.id === id ? ({ ...i, quantidade: Math.max(0, i.quantidade + delta) }) : i)
       .filter(i => i.quantidade > 0)
     );
   };
