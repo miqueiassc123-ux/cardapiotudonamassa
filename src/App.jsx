@@ -148,7 +148,7 @@ function App() {
                       <h3 className="font-bold text-sm text-zinc-100">{item.nome}</h3>
                       {item.destaque && <span className="bg-amber-500/10 text-amber-400 text-[10px] px-1.5 py-0.5 rounded font-medium">★ Mais Pedido</span>}
                     </div>
-                    <p className="text-xs text-zinc-400 mt-1 line-clamp-2">{item.descricao}</p>
+                    <p className="text-xs text-zinc-400 mt-1 whitespace-normal break-words">{item.descricao}</p>
                     <p className="text-amber-400 font-bold mt-2 text-sm">R$ {item.preco.toFixed(2).replace('.', ',')}</p>
                   </div>
                   <button 
