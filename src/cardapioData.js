@@ -2,39 +2,39 @@ export const cardapio = {
   pizzasTradicionais: {
     nome: "Pizzas Tradicionais (35cm)",
     itens: [
-      { id: "pt1", nome: "Calabresa da Casa", descricao: "Molho de tomate, muçarela, calabresa, cebola e orégano.", preco: 39.90, destaque: true },
-      { id: "pt2", nome: "Frango com Catupiry", descricao: "Molho de tomate, muçarela, frango desfiado e catupiry.", preco: 39.90 },
-      { id: "pt3", nome: "Moda da Casa", descricao: "Molho de tomate, muçarela, presunto, calabresa, frango, cebola, tomate, pimentão, azeitona e bacon.", preco: 39.90, destaque: true },
-      { id: "pt4", nome: "Portuguesa Tradicional", descricao: "Molho de tomate, muçarela, presunto, ovos, cebola, ervilha, azeitona e bacon.", preco: 39.90 },
-      { id: "pt5", nome: "Marguerita", descricao: "Molho de tomate, muçarela, manjericão e orégano.", preco: 39.90 },
-      { id: "pt6", nome: "Calabresa Especial", descricao: "Molho de tomate, muçarela, calabresa e catupiry.", preco: 39.90 },
-      { id: "pt7", nome: "Frango com Milho", descricao: "Molho de tomate, muçarela, frango desfiado e milho.", preco: 39.90 },
-      { id: "pt8", nome: "Frango com Palmito Especial", descricao: "Molho de tomate, muçarela, frango, palmito e orégano.", preco: 39.90 },
-      { id: "pt9", nome: "Charque com Catupiry", descricao: "Molho de tomate, muçarela, charque desfiado, catupiry e pimenta de cheiro.", preco: 39.90 },
-      { id: "pt10", nome: "Pizza Dog", descricao: "Salsicha, bacon, milho, ervilha, tomate, cebola, catupiry e batata palha.", preco: 39.90 },
-      { id: "pt11", nome: "Paulista Especial", descricao: "Molho de tomate, muçarela, presunto, milho, palmito, calabresa moída, cebola e azeitona.", preco: 39.90 },
-      { id: "pt12", nome: "Strogonoff de Frango", descricao: "Molho de tomate, muçarela, frango cremoso e batata palha.", preco: 39.90 }
+      { id: "pt1", nome: "Calabresa da Casa", descricao: "Molho de tomate, muçarela, calabresa, cebola e orégano.", preco: 49.90, destaque: true },
+      { id: "pt2", nome: "Frango com Catupiry", descricao: "Molho de tomate, muçarela, frango desfiado e catupiry.", preco: 49.90 },
+      { id: "pt3", nome: "Moda da Casa", descricao: "Molho de tomate, muçarela, presunto, calabresa, frango, cebola, tomate, pimentão, azeitona e bacon.", preco: 49.90, destaque: true },
+      { id: "pt4", nome: "Portuguesa Tradicional", descricao: "Molho de tomate, muçarela, presunto, ovos, cebola, ervilha, azeitona e bacon.", preco: 49.90 },
+      { id: "pt5", nome: "Marguerita", descricao: "Molho de tomate, muçarela, manjericão e orégano.", preco: 49.90 },
+      { id: "pt6", nome: "Calabresa Especial", descricao: "Molho de tomate, muçarela, calabresa e catupiry.", preco: 49.90 },
+      { id: "pt7", nome: "Frango com Milho", descricao: "Molho de tomate, muçarela, frango desfiado e milho.", preco: 49.90 },
+      { id: "pt8", nome: "Frango com Palmito Especial", descricao: "Molho de tomate, muçarela, frango, palmito e orégano.", preco: 49.90 },
+      { id: "pt9", nome: "Charque com Catupiry", descricao: "Molho de tomate, muçarela, charque desfiado, catupiry e pimenta de cheiro.", preco: 49.90 },
+      { id: "pt10", nome: "Pizza Dog", descricao: "Salsicha, bacon, milho, ervilha, tomate, cebola, catupiry e batata palha.", preco: 49.90 },
+      { id: "pt11", nome: "Paulista Especial", descricao: "Molho de tomate, muçarela, presunto, milho, palmito, calabresa moída, cebola e azeitona.", preco: 49.90 },
+      { id: "pt12", nome: "Strogonoff de Frango", descricao: "Molho de tomate, muçarela, frango cremoso e batata palha.", preco: 49.90 }
     ]
   },
   pizzasPremium: {
     nome: "Pizzas Premium (35cm)",
     itens: [
-      { id: "pp1", nome: "Quatro Queijos", descricao: "Molho de tomate, muçarela, gorgonzola, parmesão e catupiry.", preco: 49.90, destaque: true },
-      { id: "pp2", nome: "Parma com Mel", descricao: "Molho de tomate, muçarela e presunto de parma com toque agridoce.", preco: 49.90 },
-      { id: "pp3", nome: "Pesto & Burrata", descricao: "Molho de tomate, muçarela, molho pesto, burrata, tomate e orégano.", preco: 49.90, destaque: true },
-      { id: "pp4", nome: "Stracciatella", descricao: "Molho de tomate, muçarela, queijo cremoso, rúcula e tomate seco.", preco: 49.90 },
-      { id: "pp5", nome: "Rúcula com Tomate Seco", descricao: "Molho de tomate, muçarela, rúcula, tomate seco, azeite e orégano.", preco: 49.90 },
-      { id: "pp6", nome: "Alho-poró Especial", descricao: "Molho de tomate, muçarela, bacon, alho-poró e orégano.", preco: 49.90 },
-      { id: "pp7", nome: "Lombinho Canadense", descricao: "Molho de tomate, muçarela, lombinho, cebola e azeitona preta.", preco: 49.90 },
-      { id: "pp8", nome: "Costela com Catupiry", descricao: "Molho de tomate, muçarela, costela desfiada, catupiry e orégano.", preco: 49.90 }
+      { id: "pp1", nome: "Quatro Queijos", descricao: "Molho de tomate, muçarela, gorgonzola, parmesão e catupiry.", preco: 59.90, destaque: true },
+      { id: "pp2", nome: "Parma com Mel", descricao: "Molho de tomate, muçarela e presunto de parma com toque agridoce.", preco: 59.90 },
+      { id: "pp3", nome: "Pesto & Burrata", descricao: "Molho de tomate, muçarela, molho pesto, burrata, tomate e orégano.", preco: 59.90, destaque: true },
+      { id: "pp4", nome: "Stracciatella", descricao: "Molho de tomate, muçarela, queijo cremoso, rúcula e tomate seco.", preco: 59.90 },
+      { id: "pp5", nome: "Rúcula com Tomate Seco", descricao: "Molho de tomate, muçarela, rúcula, tomate seco, azeite e orégano.", preco: 59.90 },
+      { id: "pp6", nome: "Alho-poró Especial", descricao: "Molho de tomate, muçarela, bacon, alho-poró e orégano.", preco: 59.90 },
+      { id: "pp7", nome: "Lombinho Canadense", descricao: "Molho de tomate, muçarela, lombinho, cebola e azeitona preta.", preco: 59.90 },
+      { id: "pp8", nome: "Costela com Catupiry", descricao: "Molho de tomate, muçarela, costela desfiada, catupiry e orégano.", preco: 59.90 }
     ]
   },
   pizzasDoces: {
     nome: "Pizzas Doces (35cm)",
     itens: [
-      { id: "pd1", nome: "Nutella Suprema", descricao: "Creme de Nutella, chocolate ao toque especial da casa.", preco: 49.90, destaque: true },
-      { id: "pd2", nome: "Chocolate com Morango", descricao: "Chocolate cremoso com morangos frescos.", preco: 49.90 },
-      { id: "pd3", nome: "Banana Nevada", descricao: "Banana, leite condensado, açúcar e canela.", preco: 49.90 }
+      { id: "pd1", nome: "Nutella Suprema", descricao: "Creme de Nutella, chocolate ao toque especial da casa.", preco: 59.90, destaque: true },
+      { id: "pd2", nome: "Chocolate com Morango", descricao: "Chocolate cremoso com morangos frescos.", preco: 59.90 },
+      { id: "pd3", nome: "Banana Nevada", descricao: "Banana, leite condensado, açúcar e canela.", preco: 59.90 }
     ]
   },
   burgers: {
