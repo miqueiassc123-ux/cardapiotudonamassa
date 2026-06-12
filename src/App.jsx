@@ -64,7 +64,7 @@ function App() {
   };
 
   const copiarPix = () => {
-    const chavePix = "SUA_CHAVE_PIX_AQUI"; 
+    const chavePix = "dfacdb07-23d7-4ca4-bd27-5e83f1c49c57"; 
     navigator.clipboard.writeText(chavePix);
     alert("Chave PIX copiada com sucesso! Abra o app do seu banco para pagar.");
   };
