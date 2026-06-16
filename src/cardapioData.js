@@ -3,30 +3,31 @@ export const cardapio = {
     nome: "Pizzas Tradicionais (35cm)",
     itens: [
       { id: "pt1", nome: "Calabresa da Casa", descricao: "Molho de tomate, muçarela, calabresa, cebola e orégano.", preco: 49.90, destaque: true },
-      { id: "pt2", nome: "Frango com Catupiry", descricao: "Molho de tomate, muçarela, frango desfiado e catupiry.", preco: 49.90 },
-      { id: "pt3", nome: "Moda da Casa", descricao: "Molho de tomate, muçarela, presunto, calabresa, frango, cebola, tomate, pimentão, azeitona e bacon.", preco: 49.90, destaque: true },
-      { id: "pt4", nome: "Portuguesa Tradicional", descricao: "Molho de tomate, muçarela, presunto, ovos, cebola, ervilha, azeitona e bacon.", preco: 49.90 },
+      { id: "pt2", nome: "Frango com Catupiry", descricao: "Molho de tomate, muçarela, frango desfiado, catupiry e orégano.", preco: 49.90 },
+      { id: "pt3", nome: "Moda da Casa", descricao: "Molho de tomate, muçarela, presunto, calabresa, frango, cebola, tomate, pimentão, azeitona, bacon e orégano.", preco: 49.90, destaque: true },
+      { id: "pt4", nome: "Portuguesa Tradicional", descricao: "Molho de tomate, muçarela, presunto, ovos, cebola, ervilha, azeitona, bacon e orégano.", preco: 49.90 },
       { id: "pt5", nome: "Marguerita", descricao: "Molho de tomate, muçarela, manjericão e orégano.", preco: 49.90 },
-      { id: "pt6", nome: "Calabresa Especial", descricao: "Molho de tomate, muçarela, calabresa e catupiry.", preco: 49.90 },
-      { id: "pt7", nome: "Frango com Milho", descricao: "Molho de tomate, muçarela, frango desfiado e milho.", preco: 49.90 },
+      { id: "pt6", nome: "Calabresa Especial", descricao: "Molho de tomate, muçarela, calabresa, catupiry e orégano.", preco: 49.90 },
+      { id: "pt7", nome: "Frango com Milho", descricao: "Molho de tomate, muçarela, frango desfiado, milho e orégano.", preco: 49.90 },
       { id: "pt8", nome: "Frango com Palmito Especial", descricao: "Molho de tomate, muçarela, frango, palmito e orégano.", preco: 49.90 },
-      { id: "pt9", nome: "Charque com Catupiry", descricao: "Molho de tomate, muçarela, charque desfiado, catupiry e pimenta de cheiro.", preco: 49.90 },
-      { id: "pt10", nome: "Pizza Dog", descricao: "Salsicha, bacon, milho, ervilha, tomate, cebola, catupiry e batata palha.", preco: 49.90 },
-      { id: "pt11", nome: "Paulista Especial", descricao: "Molho de tomate, muçarela, presunto, milho, palmito, calabresa moída, cebola e azeitona.", preco: 49.90 },
-      { id: "pt12", nome: "Strogonoff de Frango", descricao: "Molho de tomate, muçarela, frango cremoso e batata palha.", preco: 49.90 }
+      { id: "pt9", nome: "Charque com Catupiry", descricao: "Molho de tomate, muçarela, charque desfiado, catupiry, pimenta de cheiro e orégano.", preco: 49.90 },
+      { id: "pt10", nome: "Pizza Dog", descricao: "Salsicha, bacon, milho, ervilha, tomate, cebola, catupiry, batata palha e orégano.", preco: 49.90 },
+      { id: "pt11", nome: "Paulista Especial", descricao: "Molho de tomate, muçarela, presunto, milho, palmito, calabresa moída, cebola, azeitona e orégano.", preco: 49.90 },
+      { id: "pt12", nome: "Strogonoff de Frango", descricao: "Molho de tomate, muçarela, frango cremoso, batata palha e orégano.", preco: 49.90 }
     ]
   },
   pizzasPremium: {
     nome: "Pizzas Premium (35cm)",
     itens: [
-      { id: "pp1", nome: "Quatro Queijos", descricao: "Molho de tomate, muçarela, gorgonzola, parmesão e catupiry.", preco: 59.90, destaque: true },
-      { id: "pp2", nome: "Parma com Mel", descricao: "Molho de tomate, muçarela e presunto de parma com toque agridoce.", preco: 59.90 },
+      { id: "pp1", nome: "Quatro Queijos", descricao: "Molho de tomate, muçarela, gorgonzola, parmesão, catupiry e orégano.", preco: 59.90, destaque: true },
+      { id: "pp2", nome: "Parma com Mel", descricao: "Molho de tomate, muçarela, presunto de parma com toque agridoce e orégano.", preco: 59.90 },
       { id: "pp3", nome: "Pesto & Burrata", descricao: "Molho de tomate, muçarela, molho pesto, burrata, tomate e orégano.", preco: 59.90, destaque: true },
-      { id: "pp4", nome: "Stracciatella", descricao: "Molho de tomate, muçarela, queijo cremoso, rúcula e tomate seco.", preco: 59.90 },
+      { id: "pp4", nome: "Stracciatella", descricao: "Molho de tomate, muçarela, queijo cremoso, rúcula, tomate seco e orégano.", preco: 59.90 },
       { id: "pp5", nome: "Rúcula com Tomate Seco", descricao: "Molho de tomate, muçarela, rúcula, tomate seco, azeite e orégano.", preco: 59.90 },
       { id: "pp6", nome: "Alho-poró Especial", descricao: "Molho de tomate, muçarela, bacon, alho-poró e orégano.", preco: 59.90 },
-      { id: "pp7", nome: "Lombinho Canadense", descricao: "Molho de tomate, muçarela, lombinho, cebola e azeitona preta.", preco: 59.90 },
-      { id: "pp8", nome: "Costela com Catupiry", descricao: "Molho de tomate, muçarela, costela desfiada, catupiry e orégano.", preco: 59.90 }
+      { id: "pp7", nome: "Lombinho Canadense", descricao: "Molho de tomate, muçarela, lombinho, cebola, azeitona preta e orégano.", preco: 59.90 },
+      { id: "pp8", nome: "Costela com Catupiry", descricao: "Molho de tomate, muçarela, costela desfiada, catupiry e orégano.", preco: 59.90 },
+      { id: "pp9", nome: "Pizza Especial", descricao: "Mussarela, costelinha defumada, molho de tomate especial, geleia de pimenta, Catupiry, cheddar e orégano.", preco: 59.90 }
     ]
   },
   pizzasDoces: {
@@ -38,16 +39,16 @@ export const cardapio = {
     ]
   },
   burgers: {
-    nome: "Burger na Massa (Acomp. Batata Frita)",
+    nome: "Burger na Massa (Opção de Pão de Brioche - Acomp. Batata Frita)",
     itens: [
-      { id: "b1", nome: "Burger da Casa", descricao: "Blend 200g, cebola caramelizada, cream cheese, gorgonzola, muçarela e parmesão gratinado.", preco: 37.90 },
-      { id: "b2", nome: "Massa Saborosa", descricao: "Blend 200g, tomate seco, muçarela, rúcula, pepperoni e parmesão gratinado.", preco: 37.90 },
-      { id: "b3", nome: "Frango Especial", descricao: "Blend 200g, frango desfiado, catupiry, bacon, muçarela e parmesão gratinado.", preco: 37.90 },
-      { id: "b4", nome: "Massa Crocante", descricao: "Blend 200g, muçarela, bacon, catupiry, milho, cheddar e parmesão gratinado.", preco: 37.90 },
-      { id: "b5", nome: "Massa 360", descricao: "Blend 200g, catupiry, cream cheese, catupira, milho e parmesão gratinado.", preco: 37.90 },
-      { id: "b6", nome: "Massa da Hora", descricao: "Blend 200g, queijo minas, bacon, champignon, catupiry, picles e parmesão gratinado.", preco: 37.90 },
-      { id: "b7", nome: "Massa Cremosa", descricao: "Blend 200g, cebola caramelizada, gorgonzola e cream cheese com parmesão gratinado.", preco: 37.90 },
-      { id: "b8", nome: "Massa Defumada", descricao: "Blend 200g, bacon, barbecue artesanal, gorgonzola, muçarela e parmesão gratinado.", preco: 37.90 }
+      { id: "b1", nome: "Burger da Casa", descricao: "Blend 200g, cebola caramelizada, cream cheese, gorgonzola, muçarela e parmesão gratinado.", preco: 44.90 },
+      { id: "b2", nome: "Massa Saborosa", descricao: "Blend 200g, tomate seco, muçarela, rúcula, pepperoni e parmesão gratinado.", preco: 44.90 },
+      { id: "b3", nome: "Frango Especial", descricao: "Blend 200g, frango desfiado, catupiry, bacon, muçarela e parmesão gratinado.", preco: 44.90 },
+      { id: "b4", nome: "Massa Crocante", descricao: "Blend 200g, muçarela, bacon, catupiry, milho, cheddar e parmesão gratinado.", preco: 44.90 },
+      { id: "b5", nome: "Massa 360", descricao: "Blend 200g, catupiry, cream cheese, catupira, milho, camarão e parmesão gratinado.", preco: 44.90 },
+      { id: "b6", nome: "Massa da Hora", descricao: "Blend 200g, queijo minas, bacon, champignon, catupiry, picles e parmesão gratinado.", preco: 44.90 },
+      { id: "b7", nome: "Massa Cremosa", descricao: "Blend 200g, cebola caramelizada, gorgonzola e cream cheese com parmesão gratinado.", preco: 44.90 },
+      { id: "b8", nome: "Massa Defumada", descricao: "Blend 200g, bacon, barbecue artesanal, gorgonzola, muçarela e parmesão gratinado.", preco: 44.90 }
     ]
   },
   cervejas: {
@@ -68,9 +69,10 @@ export const cardapio = {
       { id: "beb2", nome: "Água tônica", preco: 7.50 },
       { id: "beb3", nome: "Suco (copo)", preco: 7.00 },
       { id: "beb4", nome: "Jarra (suco)", preco: 15.00 },
-      { id: "beb5", nome: "Red Bull", preco: 19.90 },
-      { id: "beb6", nome: "Água sem gás", preco: 4.50 },
-      { id: "beb7", nome: "Água com gás", preco: 5.50 }
+      { id: "beb5", nome: "Coca-Cola 2L", preco: 18.90 },
+      { id: "beb6", nome: "Red Bull", preco: 19.90 },
+      { id: "beb7", nome: "Água sem gás", preco: 4.50 },
+      { id: "beb8", nome: "Água com gás", preco: 5.50 }
     ]
   },
   doses: {
@@ -80,7 +82,7 @@ export const cardapio = {
       { id: "d2", nome: "Gin", preco: 15.90 },
       { id: "d3", nome: "White Horse", preco: 19.90 },
       { id: "d4", nome: "John Walker", preco: 25.90 },
-      { id: "d5", nome: "Cachaça 51", preco: 7.90 }
+      { id: "d5", nome: "Caipirinha", preco: 22.00 }
     ]
   }
 };
