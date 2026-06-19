@@ -27,7 +27,7 @@ export const cardapio = {
       { id: "pp6", nome: "Alho-poró Especial", descricao: "Molho de tomate, muçarela, bacon, alho-poró e orégano.", preco: 59.90 },
       { id: "pp7", nome: "Lombinho Canadense", descricao: "Molho de tomate, muçarela, lombinho, cebola, azeitona preta e orégano.", preco: 59.90 },
       { id: "pp8", nome: "Costela com Catupiry", descricao: "Molho de tomate, muçarela, costela desfiada, catupiry e orégano.", preco: 59.90 },
-      { id: "pp9", nome: "Pizza Especial", descricao: "Mussarela, costelinha defumada, molho de tomate especial, geleia de pimenta, Catupiry, cheddar e orégano.", preco: 59.90 }
+      { id: "pp9", nome: "Pizza Especial", descricao: "Muçarela, costelinha defumada, molho de tomate especial, geleia de pimenta, Catupiry, cheddar e orégano.", preco: 59.90 }
     ]
   },
   pizzasDoces: {
@@ -41,14 +41,22 @@ export const cardapio = {
   burgers: {
     nome: "Burger na Massa (Opção de Pão de Brioche - Acomp. Batata Frita)",
     itens: [
-      { id: "b1", nome: "Burger da Casa", descricao: "Blend 200g, cebola caramelizada, cream cheese, gorgonzola, muçarela e parmesão gratinado.", preco: 44.90 },
+      { id: "b1", nome: "Burger da Casa", descricao: "Blend 200g, cebola caramelizada, cream cheese, gorgonzola, muçarela, geleia agridoce de pimenta e parmesão gratinado.", preco: 44.90 },
       { id: "b2", nome: "Massa Saborosa", descricao: "Blend 200g, tomate seco, muçarela, rúcula, pepperoni e parmesão gratinado.", preco: 44.90 },
       { id: "b3", nome: "Frango Especial", descricao: "Blend 200g, frango desfiado, catupiry, bacon, muçarela e parmesão gratinado.", preco: 44.90 },
       { id: "b4", nome: "Massa Crocante", descricao: "Blend 200g, muçarela, bacon, catupiry, milho, cheddar e parmesão gratinado.", preco: 44.90 },
-      { id: "b5", nome: "Massa 360", descricao: "Blend 200g, catupiry, cream cheese, catupira, milho, camarão e parmesão gratinado.", preco: 44.90 },
+      { id: "b5", nome: "Massa 360", descricao: "Blend 200g, catupiry, cream cheese, bacon, milho, camarão e parmesão gratinado.", preco: 44.90 },
       { id: "b6", nome: "Massa da Hora", descricao: "Blend 200g, queijo minas, bacon, champignon, catupiry, picles e parmesão gratinado.", preco: 44.90 },
       { id: "b7", nome: "Massa Cremosa", descricao: "Blend 200g, cebola caramelizada, gorgonzola e cream cheese com parmesão gratinado.", preco: 44.90 },
-      { id: "b8", nome: "Massa Defumada", descricao: "Blend 200g, bacon, barbecue artesanal, gorgonzola, muçarela e parmesão gratinado.", preco: 44.90 }
+      { id: "b8", nome: "Massa Defumada", descricao: "Blend 200g, bacon, barbecue artesanal, gorgonzola, muçarela e parmesão gratinado.", preco: 44.90 },
+      { id: "b9", nome: "X-Salada Bacon", descricao: "Pão de Brioche, blend 150g, bacon, queijo, alface, tomate, molho especial e acompanhamento de batata frita.", preco: 34.90 }
+    ]
+  },
+  porcoes: {
+    nome: "Porções",
+    itens: [
+      { id: "por1", nome: "Batata Frita", preco: 25.00 },
+      { id: "por2", nome: "Carne com Fritas", preco: 69.00 }
     ]
   },
   cervejas: {
@@ -67,12 +75,16 @@ export const cardapio = {
     itens: [
       { id: "beb1", nome: "Gatorade", preco: 10.00 },
       { id: "beb2", nome: "Água tônica", preco: 7.50 },
-      { id: "beb3", nome: "Suco (copo)", preco: 7.00 },
-      { id: "beb4", nome: "Jarra (suco)", preco: 15.00 },
-      { id: "beb5", nome: "Refrigerante 2L", preco: 15.90 },
-      { id: "beb6", nome: "Red Bull", preco: 19.90 },
+      { id: "beb3", nome: "Suco Natural (copo)", preco: 7.00 },
+      { id: "beb4", nome: "Suco Natural (jarra)", preco: 15.00 },
+      { id: "beb5", nome: "Refrigerante 2L", preco: 15.00 },
+      { id: "beb6", nome: "Red Bull Pequeno", preco: 15.50 },
       { id: "beb7", nome: "Água sem gás", preco: 4.50 },
-      { id: "beb8", nome: "Água com gás", preco: 5.50 }
+      { id: "beb8", nome: "Água com gás", preco: 5.50 },
+      { id: "beb9", nome: "Coca-Cola 600ml", preco: 12.50 },
+      { id: "beb10", nome: "Suco Del Valle 1L", preco: 14.90 },
+      { id: "beb11", nome: "Suco Lata", preco: 10.00 },
+      { id: "beb12", nome: "Refrigerante Caçulinha (250ml)", preco: 5.00 }
     ]
   },
   doses: {
@@ -81,7 +93,7 @@ export const cardapio = {
       { id: "d1", nome: "Dose Vodka", preco: 9.90 },
       { id: "d2", nome: "Gin", preco: 15.90 },
       { id: "d3", nome: "White Horse", preco: 19.90 },
-      { id: "d4", nome: "John Walker", preco: 25.90 },
+      { id: "d4", nome: "Johnnie Walker", preco: 25.90 },
       { id: "d5", nome: "Caipirinha", preco: 22.00 }
     ]
   }
