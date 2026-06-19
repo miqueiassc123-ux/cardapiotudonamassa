@@ -69,7 +69,7 @@ export const cardapio = {
       { id: "beb2", nome: "Água tônica", preco: 7.50 },
       { id: "beb3", nome: "Suco (copo)", preco: 7.00 },
       { id: "beb4", nome: "Jarra (suco)", preco: 15.00 },
-      { id: "beb5", nome: "Coca-Cola 2L", preco: 18.90 },
+      { id: "beb5", nome: "Refrigerante 2L", preco: 15.90 },
       { id: "beb6", nome: "Red Bull", preco: 19.90 },
       { id: "beb7", nome: "Água sem gás", preco: 4.50 },
       { id: "beb8", nome: "Água com gás", preco: 5.50 }
